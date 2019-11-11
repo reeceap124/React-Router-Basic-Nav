@@ -10,8 +10,7 @@ const App = () => (
     <Route path='/about' component={About} />
     <Route path='/contact' component={Contact} />
   </div>
-  
-
+  //seems to need to be inside the div tag
 );
 
 export default App;
